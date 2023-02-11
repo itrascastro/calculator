@@ -9,14 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/service/CalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calculator/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calculator/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/template.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -58,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,6 +71,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/template" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -165,11 +173,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675982048331</updated>
-      <workItem from="1675982049635" duration="3736000" />
+      <workItem from="1675982049635" duration="11154000" />
     </task>
+    <task id="LOCAL-00001" summary="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
+      <created>1675986697422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675986697422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
+    <option name="LAST_COMMIT_MESSAGE" value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
   </component>
 </project>

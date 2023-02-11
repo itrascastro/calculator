@@ -13,13 +13,29 @@ public class CalculatorServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
-        PrintWriter out = response.getWriter();
         CalculatorService c = new CalculatorService(2,3);
 
-        if (action.equals("add")) {
-            c.add();
-            out.write("sum: " + c.getRes());
+        String viewRoute = "/WEB-INF/view/";
+        String title = "";
+        String contentPage = "";
+
+        if (action.equals("index")) {
+            title = "Calculator - Home";
+            contentPage = viewRoute + "calculator/index.jsp";
+        } else if (action.equals("add")) {
+            title = "Calculator - Add";
+            contentPage = viewRoute + "calculator/add.jsp";
         }
+
+        /*
+        * when they say request.setAttribute(Object, Object) it is simply to imply that the scope
+        * of the attribute is for that request only and the attribute will not exist
+        * in subsequent requests.
+        */
+        request.setAttribute("title", title);
+        request.setAttribute("contentPage", contentPage);
+
+        request.getRequestDispatcher(viewRoute + "template.jsp").forward(request, response);
     }
 
     @Override
