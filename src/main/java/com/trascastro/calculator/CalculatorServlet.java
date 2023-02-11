@@ -6,36 +6,35 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet(name = "CalculatorServlet", value = "/calculator")
 public class CalculatorServlet extends HttpServlet {
+    private ServletContext context;
+
+    public void init() {
+        this.context = getServletContext();
+    }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
         CalculatorService c = new CalculatorService(2,3);
 
-        String viewRoute = "/WEB-INF/view/";
+        String viewPath = context.getInitParameter("viewPath");
         String title = "";
         String contentPage = "";
 
         if (action.equals("index")) {
             title = "Calculator - Home";
-            contentPage = viewRoute + "calculator/index.jsp";
+            contentPage = viewPath + "calculator/index.jsp";
         } else if (action.equals("add")) {
             title = "Calculator - Add";
-            contentPage = viewRoute + "calculator/add.jsp";
+            contentPage = viewPath + "calculator/add.jsp";
         }
 
-        /*
-        * when they say request.setAttribute(Object, Object) it is simply to imply that the scope
-        * of the attribute is for that request only and the attribute will not exist
-        * in subsequent requests.
-        */
         request.setAttribute("title", title);
         request.setAttribute("contentPage", contentPage);
 
-        request.getRequestDispatcher(viewRoute + "template.jsp").forward(request, response);
+        request.getRequestDispatcher(viewPath + "template.jsp").forward(request, response);
     }
 
     @Override

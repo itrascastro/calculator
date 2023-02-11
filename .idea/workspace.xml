@@ -9,13 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calculator/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calculator/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/template.jsp" afterDir="false" />
+    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="Template with placeholders added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -173,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675982048331</updated>
-      <workItem from="1675982049635" duration="11154000" />
+      <workItem from="1675982049635" duration="11447000" />
+      <workItem from="1676129693846" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
       <created>1675986697422</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675986697422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Template with placeholders added">
+      <created>1676074000131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676074000131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +196,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
-    <option name="LAST_COMMIT_MESSAGE" value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
+    <MESSAGE value="Template with placeholders added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template with placeholders added" />
   </component>
 </project>
