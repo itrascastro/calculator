@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="Template with placeholders added">
+    <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="Front Controller created. Still not working but the skeleton is already created. Some minor changes are required">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/FrontControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/HelloServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,22 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.trascastro.calculator" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/template" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -173,6 +183,10 @@
       <updated>1675982048331</updated>
       <workItem from="1675982049635" duration="11447000" />
       <workItem from="1676129693846" duration="1273000" />
+      <workItem from="1676145427460" duration="2208000" />
+      <workItem from="1676217611482" duration="129000" />
+      <workItem from="1676218950192" duration="7275000" />
+      <workItem from="1676670802728" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
       <created>1675986697422</created>
@@ -197,6 +211,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
     <MESSAGE value="Template with placeholders added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template with placeholders added" />
+    <MESSAGE value="Front Controller created. Still not working but the skeleton is already created. Some minor changes are required" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front Controller created. Still not working but the skeleton is already created. Some minor changes are required" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
