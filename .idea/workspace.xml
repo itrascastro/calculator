@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ae454bb-498e-450a-afb5-a706c85b996a" name="Changes" comment="Front Controller created. Still not working but the skeleton is already created. Some minor changes are required">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/FrontControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/FrontControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trascastro/calculator/FrontControllerServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +184,7 @@
       <workItem from="1676145427460" duration="2208000" />
       <workItem from="1676217611482" duration="129000" />
       <workItem from="1676218950192" duration="7275000" />
-      <workItem from="1676670802728" duration="306000" />
+      <workItem from="1676670802728" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url">
       <created>1675986697422</created>
@@ -202,11 +200,29 @@
       <option name="project" value="LOCAL" />
       <updated>1676074000131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Front Controller created. Still not working but the skeleton is already created. Some minor changes are required">
+      <created>1676671215734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676671215734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CalculatorService and CalculatorServlet added&#10;Getting &quot;action&quot; parameter from url" />
